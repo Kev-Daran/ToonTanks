@@ -11,6 +11,7 @@
  */
 class APawnTurret;
 class APawnTank;
+class APlayerControllerBase;
 UCLASS()
 class TOONTANKS_API ATankGameModeBase : public AGameModeBase
 {
@@ -19,7 +20,7 @@ class TOONTANKS_API ATankGameModeBase : public AGameModeBase
 private:
 	APawnTank* PlayerTank;
 	int32 TargetTurret = 0;
-
+    APlayerControllerBase* PlayerControllerRef;
 	void HandleGameStart();
 	void HandleGameOver(bool PlayerWon);
 	int32 GetTargetTurretCount();
