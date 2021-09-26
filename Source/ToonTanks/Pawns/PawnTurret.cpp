@@ -38,7 +38,7 @@ void APawnTurret::CheckFireCondition()
 {
     
     //If player == null stop firing
-    if(!PlayerPawn)
+    if(!PlayerPawn || !PlayerPawn->GetIsPlayerAlive())
     {
         return;
     }

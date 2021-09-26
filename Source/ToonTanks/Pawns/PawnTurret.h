@@ -28,6 +28,8 @@ private:
 	void CheckFireCondition();
 	float ReturnDistanceToPlayer();
 
+	
+
 
 public:
 	// Called every frame

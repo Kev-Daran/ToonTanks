@@ -35,6 +35,8 @@ private:
 	float RotateSpeed = 100.0f;
 
 
+
+	bool bIsPlayerAlive = true;
 	APlayerController* PlayerControllerRef;
 
 
@@ -57,5 +59,8 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	virtual void HandleDestruction() override;
+
+	bool GetIsPlayerAlive();
+
 	APawnTank();
 };
