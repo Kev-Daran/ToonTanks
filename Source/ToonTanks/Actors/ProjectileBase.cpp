@@ -34,6 +34,7 @@ void AProjectileBase::BeginPlay()
 void AProjectileBase::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormslImpulse,const FHitResult& Hit) 
 {
 	AActor* MyOwner = GetOwner();
+
 	
 	if(!MyOwner)
 	{
@@ -42,6 +43,7 @@ void AProjectileBase::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 
 	if(OtherActor && OtherActor != this && OtherActor != MyOwner)
 	{
+		UGameplayStatics::SpawnEmitterAtLocation(this, HitParticle, Hit.GetActor()->GetActorLocation());
 		UGameplayStatics::ApplyDamage(OtherActor, Damage, MyOwner->GetInstigatorController(), this, DamageType);
 	}
 	Destroy();
