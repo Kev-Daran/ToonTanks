@@ -31,6 +31,9 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Effects")
 	UParticleSystem* HitParticle;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+	UParticleSystemComponent* ParticleTrail;
+
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormslImpulse,const FHitResult& Hit);
 
