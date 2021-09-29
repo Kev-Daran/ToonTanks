@@ -34,6 +34,11 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	UParticleSystemComponent* ParticleTrail;
 
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	USoundBase* HitSound;
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	USoundBase* LaunchSound;
+
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormslImpulse,const FHitResult& Hit);
 

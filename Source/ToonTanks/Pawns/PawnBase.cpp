@@ -61,6 +61,7 @@ void APawnBase::HandleDestruction()
 	// --- UNIVERSAL IMPLEMENTATION ---
 	// Hide all components of the actor
 	UGameplayStatics::SpawnEmitterAtLocation(this, DeathParticle, GetActorLocation());
+	UGameplayStatics::SpawnSoundAtLocation(this, DeathSound, GetActorLocation());
 
 	// --- CHILD IMPLEMENTATION ---
 	
