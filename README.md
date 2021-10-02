@@ -22,5 +22,10 @@ Fire and destroy all the turrets in the map
 
 ![destroy](https://user-images.githubusercontent.com/81677957/135718986-30d8f4f0-01c7-46fb-a5f8-ebb937ef138d.png)
 
+![winscreen](https://user-images.githubusercontent.com/81677957/135719041-b80cf415-f87d-4b4b-b471-3a93339a37a4.png)
+
+![losescreen](https://user-images.githubusercontent.com/81677957/135719069-311a7466-b87a-4693-bd14-26e095186b97.png)
+
+
 
 (All of the files of the project have not been included, Source contains all the code. Blueprints haven't been included in this repo)
