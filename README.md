@@ -5,7 +5,7 @@
 # Controls
 W: Move forward<br>
 A: Move left<br>
-S: Move backwards<br>
+S: Move backward<br>
 D: Move right<br>
 LMB: Fire
 
