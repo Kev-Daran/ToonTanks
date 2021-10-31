@@ -3,10 +3,10 @@
 
 
 # Controls
-W: Move forward<br>
-A: Move left<br>
-S: Move backward<br>
-D: Move right<br>
+W: Move Forward<br>
+A: Move Left<br>
+S: Move Backward<br>
+D: Move Right<br>
 LMB: Fire
 
 # Gameplay
