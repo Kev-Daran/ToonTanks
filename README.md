@@ -1,7 +1,3 @@
-# ToonTanks
-
-
-
 # Controls
 W: Move Forward<br>
 A: Move Left<br>
