@@ -6,7 +6,7 @@ D: Move Right<br>
 LMB: Fire
 
 # Gameplay
-Fire and destroy all the turrets in the map
+Destroy all the enemy turrets in the map
 
 # Screenshots
 
